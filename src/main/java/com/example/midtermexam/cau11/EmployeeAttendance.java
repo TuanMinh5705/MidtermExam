@@ -6,7 +6,7 @@ public class EmployeeAttendance {
     private String employeeName;
     private Date workingDay;
     private int hoursWorked;
-    private String status; // "Hoàn tất" or "Thiếu"
+    private String status;
 
     public EmployeeAttendance(String employeeName, Date workingDay, int hoursWorked, String status) {
         this.employeeName = employeeName;
