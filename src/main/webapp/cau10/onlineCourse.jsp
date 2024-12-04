@@ -10,16 +10,12 @@
 </head>
 <body>
 <%
-    // Khởi tạo danh sách khóa học
     List<OnlineCourse> courseList = new ArrayList<>();
 
-    // Thêm các khóa học vào danh sách
     courseList.add(new OnlineCourse("Khóa học Java cơ bản", "Nguyễn Văn A", 20, 500000));
     courseList.add(new OnlineCourse("Khóa học Python cơ bản", "Trần Thị B", 15, 400000));
     courseList.add(new OnlineCourse("Khóa học Web Development", "Lê Minh C", 25, 700000));
     courseList.add(new OnlineCourse("Khóa học Data Science", "Phạm Thị D", 30, 900000));
-
-    // Gán danh sách khóa học vào request attribute
     request.setAttribute("courseList", courseList);
 %>
 
