@@ -6,7 +6,6 @@ public class OnlineCourse {
     private int hours;
     private double price;
 
-    // Constructor
     public OnlineCourse(String courseName, String instructor, int hours, double price) {
         this.courseName = courseName;
         this.instructor = instructor;
@@ -14,7 +13,6 @@ public class OnlineCourse {
         this.price = price;
     }
 
-    // Getters and Setters
     public String getCourseName() {
         return courseName;
     }
